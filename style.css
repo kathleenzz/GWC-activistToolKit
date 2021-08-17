@@ -1,0 +1,242 @@
+body {
+  background-color: #cae9ff;
+}
+
+header {
+  background-color: #0f4c5c;
+  padding: 1em 1em 2em 1em;
+  margin-left : 1em;
+  margin-right : 1em;
+  margin-top : 1em;
+  max-height: auto;
+  border-radius: 0;
+  height: auto;
+}
+
+hr {
+  height: 5px;
+  background-color: white;
+  border: none;
+}
+
+
+/*Navigation Bar */
+ul {
+  list-style: none;
+  text-decoration: none;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 0; 
+  text-align: center; 
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+li a {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+  text-decoration: none;
+  color: #1b4965;
+  border: none;
+  margin-left : 1em;
+  margin-right : 1em;
+}
+
+li a:hover {
+  background-color:rgba(0, 136, 255, .5);
+  padding: 1em;
+  list-style: none;
+}
+
+.navi {
+  background-color: #F6F4D2;
+  padding: .5em 1em .5em 1em;
+  
+}
+
+
+
+#about {
+  margin-top: 1em;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: .1em;
+  color: white;
+  font-size: 3em;
+  display: flex;
+
+}
+
+#fact {
+  clear: both;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: .1em;
+  color: white;
+  margin: 0 1em 0 1em; 
+  padding: 15px 0 15px 0;
+  font-size: 1.2em;
+
+}
+
+#takeAction {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: .1em;
+  color: #0f4c5c;
+  margin: 0 1em 0 1em; 
+  font-size: 3em;
+}
+
+/* CLIMATE CHANGE TITLE */
+
+.climateChangeTitle  {
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: .1em;
+  font-family: arial;
+  color: white;
+  margin: .5em 1em 0 1em;
+   
+}
+
+.climateChangeTitle2  {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: .1em;
+  font-family: arial;
+  color: white;
+  margin: 0 1em 0 1em;
+  padding-bottom: 15px;
+   
+}
+
+
+#sticky-div {
+  position: -webkit-sticky;
+  position : sticky;
+	top :0;
+  color: white;
+  /* background-color:  none; */
+
+  background-image: linear-gradient(
+    to bottom,
+    #0f4c5c 50px,
+    #0f4c5c 
+  );
+  margin: auto auto 50px auto;
+  padding
+}
+
+
+#resources {
+  text-align: center;
+  font-size: 2em;
+  font-family: arial;
+  color: #0f4c5c;
+  letter-spacing: .1em;
+}
+
+/* video & containers */
+
+.flexBoxContainer1 {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: no wrap;
+ justify-content: center;
+}
+
+.flexItem {
+ flex-basis: 100%;
+ text-align: center;
+}
+
+
+.iframe-container iframe{
+  max-width: 0 auto;
+  margin: 0 auto 0 15px;
+  padding: 0;
+  
+}
+
+/* BREAKPOINT 1 */
+@media screen and (max-width: 1284px){
+  .flexboxContainer1 {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .iframe-container iframe {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1295px){
+  #factButton {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+
+.container1 {
+  background-color: #cae9ff;
+  border: 10px solid white;
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 50px;
+  margin-left: 1em;
+  margin-right: 1em;
+  
+}
+
+.container2 {
+  background-color: white;
+  padding: 1em 1em 0 1em;
+  margin-left : 1em;
+  margin-right : 1em;
+  max-height: auto;
+  border: 5px solid #0f4c5c;
+  border-radius: 0;
+  height: auto;
+}
+
+.factContainer1 {
+  font-size: 1.5em;
+  color: #0f4c5c;
+}
+
+.factContainer2 {
+  font-size: 1.5em;
+  color: #0f4c5c;
+}
+
+.mainCause {
+  max-width: 0 auto;
+  margin: 0 auto 0 15px;
+  width: 100%;
+  height: 200;
+  text-align: center;
+  border-radius: 40px;
+  border: 5px solid #F6F4D2;
+  background-color: transparent;
+  color: #F6F4D2;
+  font-family: arial;
+  font-size: .7em;
+}
+
+label {
+  d
+}
